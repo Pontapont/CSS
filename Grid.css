@@ -1,0 +1,55 @@
+Using CSS Grid to make complex layouts
+
+.container {
+    width: 70%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+    grid-template-areas:
+        "a a a a"
+        "b c c d"
+        "b e e f"
+        "g g h f"
+}
+
+.box.one {
+    background-color: red;
+    grid-area: a;
+}
+
+.box.two {
+    background-color: orange;
+    grid-area: b;
+}
+
+.box.three {
+    background-color: yellow;
+    grid-area: c;
+}
+
+.box.four {
+    background-color: green;
+    grid-area: d;
+}
+
+.box.five {
+    background-color: lightblue;
+    grid-area: e;
+}
+
+.box.six {
+    background-color: blue;
+    grid-area: f;
+}
+
+.box.seven {
+    background-color: grey;
+    grid-area: g;
+}
+
+.box.eight {
+    background-color: pink;
+    grid-area: h;
+}
