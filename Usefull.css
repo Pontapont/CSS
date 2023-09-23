@@ -1,3 +1,31 @@
 
 /* Color goes from right to left. Right side is white while the color gets darker the more you move to the left of the element*/
 background: linear-gradient(to left, white, rgba(0, 0, 0, 0.281))
+
+
+/* Creating a spinning emoticon*/
+
+@keyframes spin {
+    from { /* Start rotation from 0 deg end at 360deg*/
+        transform: rotate(0deg);
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+    40% { /*At 40% of animation time element should have rotated 300deg*/
+        transform: rotate(300deg);
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinny-boi {
+    animation: spin 0.5s infinite linear; /* spin refers to keyframe | 0.5s refers to time one spin should take | infinite decides how many spins its possible to add a integer here
+    if you want a fixed amount | linear makes animation go at the same speed*/
+    display: inline-block;
+    font-size: 30px;
+}
