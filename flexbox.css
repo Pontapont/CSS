@@ -5,8 +5,3 @@ li:nth-child(6) {
     flex-basis: 100px;
 }
 
-Select all elements inside div.
-
-div * {
-    background-color: yellow;
-}
