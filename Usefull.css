@@ -29,3 +29,9 @@ background: linear-gradient(to left, white, rgba(0, 0, 0, 0.281))
     display: inline-block;
     font-size: 30px;
 }
+
+
+Select all elements inside div.
+div * {
+    background-color: yellow;
+}
