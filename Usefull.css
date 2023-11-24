@@ -35,3 +35,10 @@ Select all elements inside div.
 div * {
     background-color: yellow;
 }
+
+creating a variable for CSS properties
+:root {
+    --black: black;
+}
+
+color: var(--black);
