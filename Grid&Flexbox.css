@@ -53,3 +53,13 @@ Using CSS Grid to make complex layouts
     background-color: pink;
     grid-area: h;
 }
+
+<----------------------------------------------- FLEXBOX ------------------------------------------------------->
+flex-basis can be applied to a flex item. It decides the width of the flex element. When changing the width value of a flex item, try to always
+use flex-basis. The width property itself has no flexibility. It's value is permanent and wont change based on its surroundings, with flex-basis the width CAN change
+based on its surroundings.
+
+flex-basis: 100px;
+
+Order property decides position of flex item within its flex container. flex item with highest order number will be in highest position. Usefull for SEO.
+order: integer;
