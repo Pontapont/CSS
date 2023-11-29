@@ -63,3 +63,7 @@ flex-basis: 100px;
 
 Order property decides position of flex item within its flex container. flex item with highest order number will be in highest position. Usefull for SEO.
 order: integer;
+
+///////////// GAP property \\\\\\\\\\\\
+creates space between flex items
+gap: 2rem;
