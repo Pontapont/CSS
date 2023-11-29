@@ -42,3 +42,10 @@ creating a variable for CSS properties
 }
 
 color: var(--black);
+
+
+////////////////////// OL \\\\\\\\\\\\\\\\\\\\\\\\\\
+Removing dots infron of ordered list
+ol {
+    list-style-type: none;
+}
