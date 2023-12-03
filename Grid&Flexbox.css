@@ -54,6 +54,15 @@ Using CSS Grid to make complex layouts
     grid-area: h;
 }
 
+OVERLAPPING ITEMS IN A GRID STRUCTURE
+1. First declare amount of columns
+grid-template-columns: repeat(10, 1fr);
+2. Put different elements on the same column and row
+element1: grid-column: 1/6;
+          grid-row: 1/1;
+element2: grid-column: 5/10;
+          grid-row: 1/1;
+
 <----------------------------------------------- FLEXBOX ------------------------------------------------------->
 flex-basis can be applied to a flex item. It decides the width of the flex element. When changing the width value of a flex item, try to always
 use flex-basis. The width property itself has no flexibility. It's value is permanent and wont change based on its surroundings, with flex-basis the width CAN change
